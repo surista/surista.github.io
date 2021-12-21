@@ -1,19 +1,18 @@
 {
-  "name": "webdev_demo",
+  "name": "js-starter-code",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "JS Starter Code",
+  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "lite-server",
+    "postinstall": "cd ./module2-solution && npm install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/surista/webdev_demo.git"
-  },
-  "author": "",
+  "author": "S. Urista",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/surista/webdev_demo/issues"
+  "devDependencies": {
+    "lite-server": "^2.5.4"
   },
-  "homepage": "https://github.com/surista/webdev_demo#readme"
+  "dependencies": {
+    "browser-sync": "^2.27.7"
+  }
 }
