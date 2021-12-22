@@ -5,15 +5,15 @@
 }
 
 p {
-    /*padding: 15px;*/
+    padding: 15px;
     background-color: lightslategray;
     clear: both;
 }
 
-.lightgoldenrodyellow {
-    background-color: lightgoldenrodyellow;
+.row {
+    width: 100%;
+    margin: 10px;
 }
-
 
 .section {
     width: 150px;
@@ -21,11 +21,17 @@ p {
     text-align: center;
     vertical-align: middle;
     float: right;
+
 }
 
 
+.lightgoldenrodyellow {
+    background-color: lightgoldenrodyellow;
+}
+
 .darksalmon {
     background-color: darksalmon;
+
 }
 
 
@@ -36,9 +42,7 @@ p {
 
 div {
     background-color: lightslategray;
-    margin: 1px;
     position: relative;
-    border: 2px black solid;
 }
 
 
@@ -104,8 +108,6 @@ div {
     .col-md-5, .col-md-6, .col-md-7, .col-md-8,
     .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
         float: left;
-        /*margin: 10px;*/
-
     }
 
     .col-md-1 {
@@ -163,8 +165,6 @@ div {
     .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
     .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
-        /*margin: 10px;*/
-
     }
 
     .col-sm-1 {
