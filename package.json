@@ -13,6 +13,7 @@
     "lite-server": "^2.5.4"
   },
   "dependencies": {
-    "browser-sync": "^2.27.7"
+    "browser-sync": "^2.27.7",
+    "fullcalendar": "^5.10.1"
   }
 }
